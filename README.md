@@ -1,10 +1,11 @@
 # SNELL VPN SERVICE
 ## Command Install
 ### Version : 3
+### Update Your Server
 ```
-apt update && apt upgrade -y  && apt install wget -y
+apt update && apt upgrade -y --fix-missing && apt install wget -y
 ```
-### 2
+### Install Snell
 ```
 wget https://raw.githubusercontent.com/JAGOANNEON1986/SNELL/main/snell.sh && chmod +x snell.sh && ./snell.sh
 ```
